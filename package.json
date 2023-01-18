@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/AntonioCarvalho2019/SomAutomotivo2019.git",
   "author": "AntonioCarvalho2019 <antoniotonys2014@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
