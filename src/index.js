@@ -2,7 +2,7 @@ const express = require('express')
 const server = express()
 
 server.use((req, res) => {
-  res.send('Hello World!')
+  res.send('Estou criando uma nova :)')
 })
 
 const PORT = process.env.PORT || 3000
