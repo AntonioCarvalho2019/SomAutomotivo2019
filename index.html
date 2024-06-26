@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TEx Tecnologia - Jogo da Memória</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://img.teleportweb.com.br/img/assets/css/bootstrap.min_5.css" />
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li id="produtos" class="nav-item tex-cursor-pointer">
+            <a id="tex-produtos" class="nav-link active" href="#">Produtos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <header class="tex-header">
+          <p>🚀 JOGO DA MEMÓRIA 🚀</p>
+          <br />
+        </header>
+        <section class="tex-memory-game"></section><br>
+        <div class="d-flex justify-content-center">
+         <div class="alert alert-secondary text-danger" role="alert">
+            <span class="dado-attempt">0</span> Tentativas
+          </div>
+         <div class="alert alert-secondary text-success" role="alert">
+            <span class="dado-hit">0</span> Acertos
+         </div>
+         <div id="tex-button-reset" class="alert alert-secondary text-dark tex-cursor-pointer" role="alert">
+            Resetar <i class="fa fa-repeat"></i>
+         </div>
+         </div>
+      </div>
+    </div>
+    <br />
+    <div class="tex-footer">
+      <i>TEx © Todos os direitos reservados.</i>
+    </div>
+    <script src="js/script_dados.js"></script>
+    <script src="js/script_montar_tela.js"></script>
+  </body>
+</html>
